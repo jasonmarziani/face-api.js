@@ -3,9 +3,12 @@
 We want to add some alignment code to the Face Landmark Detection example.
 Once the face is detected, we want to rotate and so that examples/images/selfie2.jpg resembles examples/images/selfie.jpg
 
+![faceapi](https://github.com/jasonmarziani/face-api.js/blob/master/examples/images/selfie.jpg)
+![faceapi](https://github.com/jasonmarziani/face-api.js/blob/master/examples/images/selfie2.jpg)
+
 The end result we're looking for is an image that is scaled and rotated to resemble examples/images/jason_testA.jpg
 Note: we do not need to crop the face.  But we do need to scale and size the image to match the face placement in jason_testA.jpg, that's the end goal.
-
+![faceapi](https://github.com/jasonmarziani/face-api.js/blob/master/examples/images/jason_textA.jpg)
 
 
 
