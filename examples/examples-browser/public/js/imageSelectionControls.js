@@ -19,6 +19,8 @@ async function loadImageFromUpload() {
 
 function renderImageSelectList(selectListId, onChange, initialValue, withFaceExpressionImages) {
   let images = [1, 2, 3, 4, 5].map(idx => `bbt${idx}.jpg`)
+  images[0] = "selfie2.jpg";
+  images[1] = "selfie.jpg";
 
   if (withFaceExpressionImages) {
     images = [
@@ -50,7 +52,7 @@ function renderImageSelectList(selectListId, onChange, initialValue, withFaceExp
   )
 }
 
-function initImageSelectionControls(initialValue = 'bbt1.jpg', withFaceExpressionImages = false) {
+function initImageSelectionControls(initialValue = 'selfie2.jpg', withFaceExpressionImages = false) {
   renderImageSelectList(
     '#selectList',
     async (uri) => {
